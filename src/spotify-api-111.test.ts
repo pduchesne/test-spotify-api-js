@@ -1,4 +1,4 @@
-import * as SpotifyWebApi from 'spotify-web-api-js-111';
+import SpotifyWebApi from 'spotify-web-api-js-111';
 
 test('test instantiation', () => {
     let api: SpotifyWebApi.SpotifyWebApiJs = new SpotifyWebApi();
