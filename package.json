@@ -1,0 +1,21 @@
+{
+    "name": "test-spotify-api-js",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "dependencies": {
+        "spotify-web-api-js-110": "JMPerez/spotify-web-api-js#1.1.0",
+        "spotify-web-api-js-111": "JMPerez/spotify-web-api-js#1.1.1"
+    },
+    "devDependencies": {
+        "@types/jest": "23.3.10",
+        "@types/node": "10.12.10",
+        "jest": "23.6.0",
+        "ts-jest": "23.10.5",
+        "typescript": "3.2.1"
+    }
+}
